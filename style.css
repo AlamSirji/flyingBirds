@@ -1,0 +1,82 @@
+
+  #ashokaChakra {
+    border:5px solid black;
+    margin:50% 40%;
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    position:relative;
+  }
+  #ashokaChakra::before {
+    content:"";
+    height:40px;
+    width:40px;
+    position:absolute;
+    left:80px;
+    top:80px;
+    background-color:black;
+    border-radius:50%;
+  }
+  .sticks {
+    height:200px;
+    width:8px;
+    background-color:black;
+    position:absolute;
+  }
+  #stick1 {
+    left:96px;
+  }
+  #stick2 {
+    left:96px;
+    transform:rotate(15deg);
+  }
+  #stick3 {
+    left:96px;
+    transform:rotate(30deg);
+  }
+  #stick4 {
+    left:96px;
+    transform:rotate(45deg);
+  }
+  #stick5 {
+    left:96px;
+    transform:rotate(60deg);
+  }
+  #stick6 {
+    left:96px;
+    transform:rotate(75deg);
+  }
+  #stick7 {
+    left:96px;
+    transform:rotate(90deg);
+  }
+  #stick8 {
+    left:96px;
+    transform:rotate(105deg);
+  }
+  #stick9 {
+    left:96px;
+    transform:rotate(120deg);
+  }
+  #stick10 {
+    left:96px;
+    transform:rotate(135deg);
+  }
+  #stick11 {
+    left:96px;
+    transform:rotate(150deg);
+  }
+  #stick12 {
+    left:96px;
+    transform:rotate(165deg);
+  }
+
+  img {
+    width:80px;
+    height:80px;
+    position:absolute;
+    z-index: 11;
+    transition: all 3s;
+  }
+  
+  
