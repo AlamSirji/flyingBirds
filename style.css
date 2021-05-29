@@ -1,4 +1,9 @@
-
+body {
+  height: 100%;
+  background-image:url("https://images.unsplash.com/photo-1463947628408-f8581a2f4aca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
   #ashokaChakra {
     border:5px solid black;
     margin:50% 40%;
